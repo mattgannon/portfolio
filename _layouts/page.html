@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Week 13 Jekyll Site</title>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" type="text/css" href="/jekyll-site/css/styles.css"/>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="/jekyll-site/">Home</a></li>
-          <li><a href="/jekyll-site/work">Work</a></li>
-          <li><a href="/jekyll-site/about">About</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      {{content}}
-    </main>
-  </body>
+    <head>
+        <title>matt gannon</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="/portfolio/css/styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,900" rel="stylesheet">
+        <link rel="icon" href="/portfolio/assets/img/favicon.ico">
+    </head>
+    <body>
+        <div class="wrapper">
+            <header id="wrapper-item-1">
+                <img id="logo" src="/portfolio/assets/img/MGannon_logo_308x262.png" title="Matt Gannon" alt="Matt Gannon">
+            </header>
+
+            <aside id="wrapper-item-2">
+              {% include navigation.html %}
+            </aside>
+
+            <main id="wrapper-item-3">
+              {{content}}
+            </main>
+
+            <footer id="wrapper-item-4">
+              {% include footer.html %}
+            </footer>
+        </div>
+
+        <script src="/portfolio/js/script.js"></script>
+    </body>
 </html>
