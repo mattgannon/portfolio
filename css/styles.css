@@ -152,4 +152,8 @@ a {
     .project-gallery {
         grid-template-columns: 100vw;
     }
+
+    .gallery img {
+        width: 100%;
+    }
 }
