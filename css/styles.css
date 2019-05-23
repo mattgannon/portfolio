@@ -41,12 +41,12 @@ body.fade-out {
 .wrapper {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: 150px 1fr 1fr;
+    grid-template-columns: 150px auto 150px;
     grid-template-rows: 300px auto 100px;
     grid-template-areas: 
-        ". header header"
-        "aside main main"
-        ". footer footer";
+        ". header ."
+        "aside main ."
+        ". footer .";
 }
 /* End of Site Grid */
 
