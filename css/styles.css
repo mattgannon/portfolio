@@ -152,6 +152,11 @@ a {
         padding: 10px 20px;
     }
 
+    .gallery{
+        grid-gap: 5px;
+        grid-template-columns: 100vw;
+    }
+
     .project-gallery {
         grid-gap: 0px;
         grid-template-columns: 100vw;
