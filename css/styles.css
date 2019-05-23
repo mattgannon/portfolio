@@ -93,6 +93,7 @@ a {
 
 .gallery img {
     display: block;
+    width: 400px;
     transition: opacity 0.3s ease;
 }
 
