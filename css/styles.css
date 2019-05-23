@@ -104,11 +104,11 @@ border-color: #7c886d;
 .project-gallery {
     display: grid;
     grid-gap: 0px;
-    grid-template-columns: repeat(auto-fit, 400px);
+    grid-template-columns: minmax(500px, max-content);
 }
 
 .project-gallery img {
     display: block;
-    transition: opacity 0.3s ease;
+    width: 100%;
 }
 /* End of Project Gallery Grid */
