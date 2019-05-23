@@ -43,7 +43,7 @@ body.fade-out {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 150px auto 150px;
-    grid-template-rows: 300px auto 100px;
+    grid-template-rows: 200px auto 70px;
     grid-template-areas: 
         ". header ."
         "aside main ."
@@ -78,7 +78,7 @@ a {
 .underline {
     transition: 300ms;
     border-bottom: 1px solid transparent;
-  }
+}
   
 .underline:hover {
     border-color: #7c886d;
