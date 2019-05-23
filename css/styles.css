@@ -121,7 +121,7 @@ border-color: #7c886d;
     .wrapper {
         grid-gap: 10px;
         grid-template-columns: 100vw;
-        grid-template-rows: 150px 100px auto 100px;
+        grid-template-rows: 200px 50px auto 50px;
         grid-template-areas: 
             "header"
             "aside"
@@ -129,20 +129,14 @@ border-color: #7c886d;
             "footer";
     }
     
-    #wrapper-item-1 {
-        grid-area: header;
-        align-self: center;
-        justify-self: center;
-    }
-    
-    #wrapper-item-2 {
-        grid-area: aside;
+    #wrapper-item-1,
+    #wrapper-item-2,
+    #wrapper-item-4 {
         align-self: center;
         justify-self: center;
     }
     
     #wrapper-item-3 {
-        grid-area: main;
         margin: 0;
     }
 
@@ -155,7 +149,7 @@ border-color: #7c886d;
     }
 
     nav a {
-        padding: 10px;
+        padding: 10px 20px;
     }
 
     .project-gallery {
