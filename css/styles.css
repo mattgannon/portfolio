@@ -32,6 +32,7 @@ body.fade-out {
 
 #wrapper-item-3 {
     grid-area: main;
+    margin-right: 150px;
 }
 
 #wrapper-item-4 {
@@ -112,3 +113,53 @@ border-color: #7c886d;
     width: 100%;
 }
 /* End of Project Gallery Grid */
+
+
+/* Mobile Size */
+@media only screen and (max-width: 690px) {
+    
+    .wrapper {
+        grid-gap: 10px;
+        grid-template-columns: 100vw;
+        grid-template-rows: 150px 100px auto 100px;
+        grid-template-areas: 
+            "header"
+            "aside"
+            "main"
+            "footer";
+    }
+    
+    #wrapper-item-1 {
+        grid-area: header;
+        align-self: center;
+        justify-self: center;
+    }
+    
+    #wrapper-item-2 {
+        grid-area: aside;
+        align-self: center;
+        justify-self: center;
+    }
+    
+    #wrapper-item-3 {
+        grid-area: main;
+        margin: 0;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+
+    .project-gallery {
+        grid-gap: 0px;
+        grid-template-columns: 100vw;
+    }
+}
