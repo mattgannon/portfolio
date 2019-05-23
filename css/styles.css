@@ -32,6 +32,7 @@ body.fade-out {
 
 #wrapper-item-3 {
     grid-area: main;
+    margin: 0;
 }
 
 #wrapper-item-4 {
