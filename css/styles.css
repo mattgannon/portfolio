@@ -105,7 +105,6 @@ border-color: #7c886d;
     display: grid;
     grid-gap: 0px;
     grid-template-columns: minmax(500px, max-content);
-    margin-right: 150px;
 }
 
 .project-gallery img {
