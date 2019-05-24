@@ -42,12 +42,12 @@ body.fade-out {
 .wrapper {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: 150px auto 150px;
+    grid-template-columns: 150px auto auto 150px;
     grid-template-rows: 200px auto 70px;
     grid-template-areas: 
-        ". header ."
-        "aside main ."
-        ". footer .";
+        ". header main ."
+        "aside main main ."
+        ". footer footer .";
 }
 /* End of Site Grid */
 
@@ -102,30 +102,12 @@ a {
 }
 /* End of Gallery Grid */
 
-h2 {
-    font-size: 1.6rem;
-    text-decoration: underline;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 1.4rem;
-    margin: 10px 0;
-    max-width: 1000px;
-}
-
-table, td, th {
-    border: 1px solid #7c886d;
-  }
-
 table {
-    font-size: 1.6rem;
-    border-collapse: collapse;
+    font-size: 1.4rem;
 }
 
 th {
-    text-align: right;
+    text-align: left;
     vertical-align: top;
     font-weight: normal;
 }
