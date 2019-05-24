@@ -106,11 +106,12 @@ h2 {
     font-size: 1.6rem;
     text-decoration: underline;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 p {
     font-size: 1.4rem;
-    padding: 10px 0;
+    margin: 10px 0;
 }
 
 table, td, th {
