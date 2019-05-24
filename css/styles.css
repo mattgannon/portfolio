@@ -102,6 +102,17 @@ a {
 }
 /* End of Gallery Grid */
 
+h2 {
+    font-size: 1.6rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.4rem;
+    padding: 10px 0;
+}
+
 table, td, th {
     border: 1px solid #7c886d;
   }
