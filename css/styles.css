@@ -108,9 +108,13 @@ table {
 
 th {
     text-align: right;
+    vertical-align: top;
 }
 
-
+td {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
 
 /* Start of Project Gallery Grid */
 .project-gallery {
