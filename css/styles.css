@@ -102,6 +102,16 @@ a {
 }
 /* End of Gallery Grid */
 
+table {
+    font-size: 1.4rem;
+}
+
+th {
+    text-align: right;
+}
+
+
+
 /* Start of Project Gallery Grid */
 .project-gallery {
     display: grid;
