@@ -102,10 +102,13 @@ a {
 }
 /* End of Gallery Grid */
 
+table, td, th {
+    border: 1px solid black;
+  }
+
 table {
     font-size: 1.4rem;
     max-width: 1100px;
-    border: 1px solid black;
 }
 
 th {
