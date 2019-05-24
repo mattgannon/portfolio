@@ -117,6 +117,7 @@ th {
     font-weight: normal;
 }
 
+th,
 td {
     padding: 10px;
 }
