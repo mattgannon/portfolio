@@ -104,11 +104,13 @@ a {
 
 table {
     font-size: 1.4rem;
+    max-width: 1100px;
 }
 
 th {
     text-align: right;
     vertical-align: top;
+    font-weight: normal;
 }
 
 td {
@@ -170,5 +172,9 @@ td {
 
     .gallery img {
         width: 100%;
+    }
+
+    table {
+        max-width: 690px;
     }
 }
