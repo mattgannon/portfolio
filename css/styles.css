@@ -103,12 +103,11 @@ a {
 /* End of Gallery Grid */
 
 table, td, th {
-    border: 1px solid black;
+    border: 1px solid #7c886d;
   }
 
 table {
-    font-size: 2rem;
-    max-width: 1000px;
+    font-size: 1.6rem;
     border-collapse: collapse;
 }
 
@@ -119,8 +118,7 @@ th {
 }
 
 td {
-    padding-left: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 
 /* Start of Project Gallery Grid */
