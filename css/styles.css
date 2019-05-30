@@ -84,6 +84,15 @@ a {
     border-color: #7c886d;
 }
 
+.icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+svg {
+    fill: #74505c;
+}
+
 /* Start of Main Gallery Grid */
 .gallery {
     display: grid;
