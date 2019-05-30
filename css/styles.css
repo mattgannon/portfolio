@@ -94,7 +94,7 @@ a {
 
 .icons a,
 .icons-foot a {
-    margin-left: 13px;
+    margin: 0 10px;
 }
 
 .icons a:hover {
@@ -163,7 +163,7 @@ td {
     .wrapper {
         grid-gap: 10px;
         grid-template-columns: 100vw;
-        grid-template-rows: 200px 50px auto 50px;
+        grid-template-rows: 200px 50px auto 75px;
         grid-template-areas: 
             "header"
             "aside"
@@ -208,7 +208,7 @@ td {
     }
 
     .icons-foot {
-        display: contents;
+        display: flex;
         justify-content: center;
         align-items: center;
     }
