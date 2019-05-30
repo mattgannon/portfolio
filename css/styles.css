@@ -92,9 +92,8 @@ a {
     margin-top: 1rem;
 }
 
-.icons a,
-.icons-foot a {
-    margin: 0 10px;
+.icons a {
+    margin-left: 20px;
 }
 
 .icons a:hover {
@@ -203,13 +202,17 @@ td {
         max-width: 690px;
     }
 
-    .icons {
-        display: none;
-    }
-
     .icons-foot {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .icons-foot a {
+        margin: 0 10px;
+    }
+
+    .icons {
+        display: none;
     }
 }
