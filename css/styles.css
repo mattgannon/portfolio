@@ -84,14 +84,16 @@ a {
     border-color: #7c886d;
 }
 
-.icons {
+.icons,
+.icons-foot {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-top: 1rem;
 }
 
-.icons a {
+.icons a,
+.icons-foot a {
     margin-left: 13px;
 }
 
@@ -151,7 +153,7 @@ td {
 }
 /* End of Project Gallery Grid */
 
-footer.icons {
+.icons-foot {
     display: none;
 }
 
@@ -201,11 +203,11 @@ footer.icons {
         max-width: 690px;
     }
 
-    nav.icons {
+    .icons {
         display: none;
     }
 
-    footer.icons {
+    .icons-foot {
         display: contents;
         justify-content: center;
         align-items: center;
