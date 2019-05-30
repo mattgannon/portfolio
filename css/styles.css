@@ -87,10 +87,20 @@ a {
 .icons {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.icons a {
+    margin-left: 13px;
+}
+
+.icons a:hover {
+    opacity: 0.7;
 }
 
 svg {
-    fill: #74505c;
+    fill: #7c886d;
 }
 
 /* Start of Main Gallery Grid */
