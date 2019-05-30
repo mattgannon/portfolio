@@ -88,7 +88,7 @@ a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 .icons a {
@@ -100,7 +100,7 @@ a {
 }
 
 svg {
-    fill: #7c886d;
+    fill: #74505c;
 }
 
 /* Start of Main Gallery Grid */
@@ -151,6 +151,9 @@ td {
 }
 /* End of Project Gallery Grid */
 
+footer.icons {
+    display: none;
+}
 
 /* Mobile Size */
 @media only screen and (max-width: 690px) {
@@ -196,5 +199,15 @@ td {
 
     table {
         max-width: 690px;
+    }
+
+    nav.icons {
+        display: none;
+    }
+
+    footer.icons {
+        display: contents;
+        justify-content: center;
+        align-items: center;
     }
 }
