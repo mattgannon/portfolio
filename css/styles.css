@@ -198,9 +198,16 @@ main p {
         grid-template-columns: 100vw;
     }
 
-    .gallery img,
-    .info img {
+    .gallery img {
         width: 100%;
+    }
+
+    .info img {
+        width: 80%;
+    }
+
+    .about {
+        margin: 0px 20px 20px 20px;
     }
 
     .icons-foot {
