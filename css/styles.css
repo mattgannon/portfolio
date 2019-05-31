@@ -164,12 +164,12 @@ main p {
 .info {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: 500px 500px;
+    grid-template-columns: minmax(250px, 400px) minmax(250px, 600px);
 }
 
 .info img {
     display: block;
-    width: 500px;
+    width: 400px;
 }
 
 .icons-foot {
