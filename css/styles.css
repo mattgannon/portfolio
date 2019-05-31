@@ -169,6 +169,7 @@ main p {
 
 .info img {
     display: block;
+    max-width: 400px;
 }
 
 .icons-foot {
