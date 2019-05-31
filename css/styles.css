@@ -153,7 +153,12 @@ td {
 /* End of Project Gallery Grid */
 
 .mail {
-    text-decoration: black;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
 }
 
 .info {
