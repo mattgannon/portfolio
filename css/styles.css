@@ -155,6 +155,10 @@ main p {
     width: 400px;
 }
 
+figcaption {
+    margin-top: 0.5rem;
+}
+
 .icons-foot {
     display: none;
 }
@@ -210,6 +214,10 @@ main p {
         margin: 0px 20px 20px 20px;
     }
 
+    figcaption {
+        text-align: center;
+    }
+    
     .icons-foot {
         display: flex;
         justify-content: center;
