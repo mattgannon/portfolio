@@ -158,6 +158,11 @@ td {
     grid-template-columns: minmax(700px, max-content);
 }
 
+.info img {
+    display: block;
+    width: 700px;
+}
+
 .icons-foot {
     display: none;
 }
@@ -196,11 +201,13 @@ td {
     }
 
     .gallery,
-    .project-gallery {
+    .project-gallery,
+    .info {
         grid-template-columns: 100vw;
     }
 
-    .gallery img {
+    .gallery img,
+    .info img {
         width: 100%;
     }
 
