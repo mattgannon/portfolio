@@ -147,11 +147,12 @@ main p {
 .info {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: fit-content(400px) minmax(300px, 600px);
+    grid-template-columns: repeat(auto-fit, 400px);
 }
 
 .info img {
     display: block;
+    width: 400px;
 }
 
 .icons-foot {
@@ -197,7 +198,8 @@ main p {
         grid-template-columns: 100vw;
     }
 
-    .gallery img {
+    .gallery img,
+    .info img {
         width: 100%;
     }
 
