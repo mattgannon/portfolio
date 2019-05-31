@@ -155,12 +155,12 @@ td {
 .info {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: minmax(700px, max-content);
+    grid-template-columns: 500px auto;
 }
 
 .info img {
     display: block;
-    width: 700px;
+    width: 500px;
 }
 
 .icons-foot {
