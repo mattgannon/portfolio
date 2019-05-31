@@ -122,23 +122,6 @@ svg {
 }
 /* End of Gallery Grid */
 
-
-
-table {
-    font-size: 1.4rem;
-}
-
-th {
-    text-align: left;
-    vertical-align: top;
-    font-weight: normal;
-}
-
-th,
-td {
-    padding: 10px;
-}
-
 /* Start of Project Gallery Grid */
 .project-gallery {
     display: grid;
@@ -164,12 +147,11 @@ main p {
 .info {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: minmax(250px, 400px) minmax(250px, 600px);
+    grid-template-columns: fit-content(400px) minmax(300px, 600px);
 }
 
 .info img {
     display: block;
-    max-width: 400px;
 }
 
 .icons-foot {
@@ -215,13 +197,8 @@ main p {
         grid-template-columns: 100vw;
     }
 
-    .gallery img,
-    .info img {
+    .gallery img {
         width: 100%;
-    }
-
-    table {
-        max-width: 690px;
     }
 
     .icons-foot {
